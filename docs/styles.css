@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Light blue background */
+    color: #333; /* Dark text color */
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #4a90e2; /* Color for the heading */
+}
+
+form {
+    background-color: #ffffff; /* White background for the form */
+    border: 2px solid #4a90e2; /* Border color matching heading */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px;
+    margin: 20px auto; /* Centering the form */
+    max-width: 400px; /* Max width for the form */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow for the form */
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input[type="text"], input[type="date"] {
+    width: 100%; /* Full width for inputs */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Rounded corners for inputs */
+}
+
+button {
+    background-color: #4a90e2; /* Button background color */
+    color: white; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for hover */
+}
+
+button:hover {
+    background-color: #357ab8; /* Darker blue on hover */
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #e94e77; /* Pink color for the result */
+}
+
+img {
+    margin-top: 20px; /* Space above the image */
+    max-width: 300px; /* Max width for the image */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure it's centered */
+    margin-left: auto; /* Centering the image */
+    margin-right: auto; /* Centering the image */
+}
